@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Title, List, RatingNumb, ContainerRatingCard, Icon, Paragraph, Button } from '../styles/styles.js';
 import starIcon from '../images/icon-star.svg';
 import { RatingContext } from '../provider/ratingProvider';
 
 
 const RatingCard = () => {
-  const { setThanksCard, setRating, rating, thanksCard } = React.useContext(RatingContext);
+  const { setThanksCard, setRating, rating } = React.useContext(RatingContext);
 
   useEffect(() => {
     console.log(rating)
