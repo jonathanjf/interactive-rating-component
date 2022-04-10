@@ -34,15 +34,15 @@ const RatingCard = () => {
             <input type="radio" name="rating" id="rating2" onChange={ handleChange } value="2"/>
             <label for="rating2" >2</label>
           </RatingNumb >
-          <RatingNumb for="rating3">
+          <RatingNumb >
             <input type="radio" name="rating" id="rating3" onChange={ handleChange } value="3"/>
             <label for="rating3" >3</label>
           </RatingNumb >
-          <RatingNumb for="rating4">
+          <RatingNumb >
             <input type="radio" name="rating" id="rating4" onChange={ handleChange } value="4"/>
             <label for="rating4" >4</label>
           </RatingNumb >
-          <RatingNumb for="rating5">
+          <RatingNumb >
             <input type="radio" name="rating" id="rating5" onChange={ handleChange } value="5"/>
             <label for="rating5" >5</label>
           </RatingNumb >
