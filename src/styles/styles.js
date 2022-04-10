@@ -108,6 +108,22 @@ export const RatingNumb = styled.li`
   }
 `;
 
+export const custLabel = styled.label`
+  @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+  border-radius: 50%;
+  font-family: Overpass;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: hsl(216, 12%, 20%);
+  color: hsl(217, 12%, 63%);
+  padding: .5em 1em;
+  text-align:center;
+  @media (min-width: 1400px) {
+    font-size: 28px;
+    padding: 0.5em 1em;
+  }
+`;
+
 export const Button = styled.button`
   border-style: none;
   width: 85%;

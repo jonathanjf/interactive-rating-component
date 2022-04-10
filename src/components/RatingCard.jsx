@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Title, List, RatingNumb, ContainerRatingCard, Icon, Paragraph, Button } from '../styles/styles.js';
+import { Title, List, RatingNumb, ContainerRatingCard, Icon, Paragraph, Button, custLabel } from '../styles/styles.js';
 import starIcon from '../images/icon-star.svg';
 import { RatingContext } from '../provider/ratingProvider';
 
@@ -28,23 +28,23 @@ const RatingCard = () => {
       <List>
           <RatingNumb>
             <input type="radio" name="rating" id="rating1" onChange={ handleChange } value="1" />
-            <label for="rating1" >1</label>
+            <custLabel for="rating1" >1</custLabel>
           </RatingNumb>
           <RatingNumb>
             <input type="radio" name="rating" id="rating2" onChange={ handleChange } value="2"/>
-            <label for="rating2" >2</label>
+            <custLabel for="rating2" >2</custLabel>
           </RatingNumb >
           <RatingNumb >
             <input type="radio" name="rating" id="rating3" onChange={ handleChange } value="3"/>
-            <label for="rating3" >3</label>
+            <custLabel for="rating3" >3</custLabel>
           </RatingNumb >
           <RatingNumb >
             <input type="radio" name="rating" id="rating4" onChange={ handleChange } value="4"/>
-            <label for="rating4" >4</label>
+            <custLabel for="rating4" >4</custLabel>
           </RatingNumb >
           <RatingNumb >
             <input type="radio" name="rating" id="rating5" onChange={ handleChange } value="5"/>
-            <label for="rating5" >5</label>
+            <custLabel for="rating5" >5</custLabel>
           </RatingNumb >
       </List>
       <Button onClick={ () => setThanksCard(true) } >Submit</Button>
