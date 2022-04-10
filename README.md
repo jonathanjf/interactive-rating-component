@@ -9,3 +9,8 @@ de agradecimento confirmando a nota dada  pelo  mesmo.
 Para testar a aplicação na sua máquina, baixe o repositório para o seu desktop através do link ssh fornecido pelo github
 pelo terminal, utilize o comando git clone (link copiado). Após esses passos, entre na pasta do repositório clonado  via terminal e digite o comando npm start.
 Tendo iniciado a aplicação, você pode acessa-la em qualquer  navegador pelo endereço "http://localhost:3000";
+
+### `Essa aplicação também foi hospedada online através da Vercel`
+
+Para acessar a aplicação de forma online, basta acessar o seguinte link: 
+"https://interactive-rating-component-one-ashy.vercel.app/"
