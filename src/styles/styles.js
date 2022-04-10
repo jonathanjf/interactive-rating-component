@@ -74,23 +74,6 @@ export const List = styled.ul`
 `;
 
 export const RatingNumb = styled.li`
-  label {
-    @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
-    border-radius: 50%;
-    font-family: Overpass;
-    font-size: 15px;
-    font-weight: bold;
-    background-color: hsl(216, 12%, 20%);
-    color: hsl(217, 12%, 63%);
-    padding: .5em 1em;
-    text-align:center;
-  }
-
-  label:hover {
-    background-color: hsl(25, 97%, 53%);
-    color: white;
-  }
-
   input[type=radio] { 
     display: none; 
 }
@@ -108,7 +91,7 @@ export const RatingNumb = styled.li`
   }
 `;
 
-export const custLabel = styled.label`
+export const CustLabel = styled.label`
   @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
   border-radius: 50%;
   font-family: Overpass;
@@ -121,6 +104,10 @@ export const custLabel = styled.label`
   @media (min-width: 1400px) {
     font-size: 28px;
     padding: 0.5em 1em;
+  }
+  &:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
   }
 `;
 
